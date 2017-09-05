@@ -19,3 +19,7 @@ hello-word-jekyll.md
 
 路漫漫其修远兮，吾将上下而求索
 每次想换工作时候都发现太多东西似是而非了解不够仔细
+
+
+
+参考资料：http://jekyllcn.com/docs/posts/
