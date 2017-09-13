@@ -3,7 +3,7 @@ layout: post
 title: laradock-基于docker的php开发(dev)环境(env)
 categories: Other
 description: 基于docker的php开发(dev)环境(env)
-keywords: hello, word, 第一, jekyll
+keywords: laradock, docker, php, 开发环境
 ---
 
 2017-09-13-laradock-docker-php-dev-env.md   
