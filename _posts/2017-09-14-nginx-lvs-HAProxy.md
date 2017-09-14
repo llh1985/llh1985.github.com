@@ -1,3 +1,13 @@
+---
+layout: post
+title: nginx-lvs-HAProxy 优缺点和比较
+categories: Other
+description: nginx-lvs-HAProxy 优缺点和比较
+keywords: nginx, lvs, HAProxy, 负载均衡
+---
+
+2017-09-14-nginx-lvs-HAProxy.md   
+    
 *转载于[http://www.ha97.com/5646.html](http://www.ha97.com/5646.html)*
 
 #### PS：Nginx/LVS/HAProxy是目前使用最广泛的三种负载均衡软件，本人都在多个项目中实施过，参考了一些资料，结合自己的一些使用经验，总结一下。  

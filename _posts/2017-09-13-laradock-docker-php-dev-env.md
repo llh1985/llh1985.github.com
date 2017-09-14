@@ -21,6 +21,7 @@ vim nginx/sites/laravel.conf.example
 
 docker-compose up -d nginx mysql redis beanstalkd
 docker-compose exec workspace bash
+docker-compose up
 docker-compose restart
 docker-compose stop
 ```
