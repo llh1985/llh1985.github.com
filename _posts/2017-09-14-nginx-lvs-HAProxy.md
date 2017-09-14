@@ -26,7 +26,7 @@
 
 淘宝的前端使用的Tengine就是基于nginx做的二次开发定制版。
 Nginx常规的HTTP请求和响应流程图：
-![nginx.jpg](images/blog/nginx.jpg)
+![nginx.jpg](/images/blog/nginx.jpg)
 
 
 ###Nginx的缺点是：
@@ -44,7 +44,7 @@ LVS：使用Linux内核集群实现一个高性能、高可用的负载均衡服
 5、应用范围比较广，因为LVS工作在4层，所以它几乎可以对所有应用做负载均衡，包括http、数据库、在线聊天室等等。  
 
 LVS DR(Direct Routing)模式的网络流程图：
-![lvs_dr](images/blog/lvs_dr.jpg)
+![lvs_dr](/images/blog/lvs_dr.jpg)
 
 ###LVS的缺点是：
 1、软件本身不支持正则表达式处理，不能做动静分离；而现在许多网站在这方面都有较强的需求，这个是Nginx/HAProxy+Keepalived的优势所在。  
