@@ -40,11 +40,11 @@ Nginx常规的HTTP请求和响应流程图：
 
 
 ###Nginx的缺点是：
-1、Nginx仅能支持http、https和Email协议，这样就在适用范围上面小些，这个是它的缺点。
-2、对后端服务器的健康检查，只支持通过端口来检测，不支持通过url来检测。不支持Session的直接保持，但能通过ip_hash来解决。
+1、Nginx仅能支持http、https和Email协议，这样就在适用范围上面小些，这个是它的缺点。  
+2、对后端服务器的健康检查，只支持通过端口来检测，不支持通过url来检测。不支持Session的直接保持，但能通过ip_hash来解决。  
 
 ##二、LVS
-LVS：使用Linux内核集群实现一个高性能、高可用的负载均衡服务器，它具有很好的可伸缩性（Scalability)、可靠性（Reliability)和可管理性（Manageability)。
+LVS：使用Linux内核集群实现一个高性能、高可用的负载均衡服务器，它具有很好的可伸缩性（Scalability)、可靠性（Reliability)和可管理性（Manageability)。  
 
 ###LVS的优点是：
 1、抗负载能力强、是工作在网络4层之上仅作分发之用，没有流量的产生，这个特点也决定了它在负载均衡软件里的性能最强的，对内存和cpu资源消耗比较低。  
